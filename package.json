@@ -1,0 +1,54 @@
+{
+  "name": "@honkit/honkit-plugin-ga",
+  "version": "1.0.0",
+  "description": "HonKit plugin for Google Analytics 4.",
+  "keywords": [
+    "google",
+    "ga",
+    "analytics",
+    "honkit",
+    "gitbook"
+  ],
+  "homepage": "https://github.com/honkit/honkit-plugin-ga",
+  "bugs": {
+    "url": "https://github.com/honkit/honkit-plugin-ga/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honkit/honkit-plugin-ga.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "assets/"
+  ],
+  "scripts": {
+    "test": "cd example && npm install && npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "honkit": ">=3.0.0"
+  },
+  "honkit": {
+    "properties": {
+      "trackingID": {
+        "type": "string",
+        "title": "Google Analytics Tracking Id",
+        "required": true
+      },
+      "anonymizeIP": {
+        "type": "boolean",
+        "title": "Whether the IP should be anonymized when sending requests.",
+        "default": false
+      }
+    }
+  }
+}

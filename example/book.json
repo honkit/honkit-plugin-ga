@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "@honkit/honkit-plugin-ga"
+  ],
+  "pluginsConfig": {
+    "ga": {
+      "trackingID": "G-Q12RGPC6YD",
+      "anonymizeIP": true
+    }
+  }
+}

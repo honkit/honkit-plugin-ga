@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "honkit serve",
+    "build": "honkit build"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "@honkit/honkit-plugin-ga": "file:../",
+    "honkit": "^3.7.1"
+  }
+}
