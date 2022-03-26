@@ -1,6 +1,6 @@
 {
   "name": "@honkit/honkit-plugin-ga",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HonKit plugin for Google Analytics 4.",
   "keywords": [
     "google",
